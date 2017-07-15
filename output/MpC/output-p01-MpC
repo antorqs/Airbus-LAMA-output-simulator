@@ -1,0 +1,44 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core (no VSIDS)
+Options: file:domain/airbus-seats-domain.pddl file:problems/airbus-seats-p01-6f-6p.pddl
+Domain: airbus-seats
+Problem: airbus-seats-p01-6f-6p
+Parser: 684 ground actions and 300 state variables
+Invariants: 0 1 2 3  0.02 secs
+Goal: conjunctive
+Simplified: 648 ground actions and 300 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.01 secs (max SCC size 1)
+Plan type: E-step
+				Allocated 32 MB permanent (total 126 MB)
+Horizon 5: 5040 variables
+				Allocated 32 MB (total 235 MB)
+Horizon 7: 6936 variables
+Horizon 10: 9780 variables
+5 UNSAT (148 decisions 139 conflicts)
+Horizon 14: 13572 variables
+Horizon 20: 19260 variables
+SAT (199 decisions 67 conflicts)
+PLAN FOUND: 14 steps
+STEP 0: walk-to-row(row2,pass5) walk-to-row(row3,pass4) walk-to-row(row4,pass2) walk-to-row(row5,pass3) walk-to-row(row6,pass6)
+STEP 1: move-to-other-row(row4,row1,pass2) sit_in_a(row2,pass5)
+STEP 2: move-to-other-row(row3,row4,pass4) move-to-other-row(row5,row2,pass3)
+STEP 3: sit_in_b(row2,pass3) sit_in_b(row4,pass4) walk-to-row(row5,pass1)
+STEP 4: move-to-other-row(row1,row4,pass2) move-to-other-row(row6,row2,pass6)
+STEP 5: move-to-other-row(row4,row6,pass2) move-to-other-row(row5,row1,pass1) sit_in_c(row2,pass6)
+STEP 6: move-to-other-row(row6,row2,pass2) stand_up_from_b(row4,pass4)
+STEP 7: sit_in_d(row2,pass2)
+STEP 8: stand_up_from_d(row2,pass2)
+STEP 9: sit_in_f(row2,pass2)
+STEP 10: move-to-other-row(row4,row2,pass4)
+STEP 11: sit_in_e(row2,pass4)
+STEP 12: move-to-other-row(row1,row2,pass1)
+STEP 13: sit_in_d(row2,pass1)
+26 actions in the plan.
+total time 0.09 preprocess 0.03 
+total size 620.000 MB
+max. learned clause length 128
+t val conflicts decisions
+5 0 139 148
+7 -1 242 354
+10 -1 180 310
+14 1 67 199

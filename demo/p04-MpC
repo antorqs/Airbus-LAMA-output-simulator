@@ -1,0 +1,79 @@
+Solution found!
+PLAN FOUND: 40 steps
+walk-to-row row1 pass43 (1)
+walk-to-row row2 pass51 (1)
+sit_in_a row1 pass43 (1)
+sit_in_d row2 pass51 (1)
+walk-to-row row1 pass49 (1)
+walk-to-row row2 pass39 (1)
+sit_in_b row1 pass49 (1)
+sit_in_b row2 pass39 (1)
+stand_up_from_d row2 pass51 (1)
+walk-to-row row1 pass38 (1)
+sit_in_c row1 pass38 (1)
+move-to-other-row row2 row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+stand_up_from_b row2 pass39 (1)
+sit_in_a row2 pass39 (1)
+walk-to-row row1 pass17 (1)
+move-to-other-row row1 row2 pass17 (1)
+sit_in_f row2 pass17 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+stand_up_from_a row2 pass39 (1)
+sit_in_b row2 pass39 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+stand_up_from_b row2 pass39 (1)
+sit_in_e row2 pass39 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+walk-to-row row2 pass18 (1)
+sit_in_a row2 pass18 (1)
+walk-to-row row1 pass26 (1)
+move-to-other-row row1 row2 pass26 (1)
+sit_in_b row2 pass26 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_e row1 pass51 (1)
+stand_up_from_e row2 pass39 (1)
+stand_up_from_e row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+move-to-other-row row2 row1 pass39 (1)
+move-to-other-row row1 row2 pass39 (1)
+sit_in_c row2 pass39 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+stand_up_from_f row2 pass17 (1)
+move-to-other-row row2 row1 pass17 (1)
+move-to-other-row row1 row2 pass17 (1)
+sit_in_f row2 pass17 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+walk-to-row row2 pass29 (1)
+sit_in_d row2 pass29 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_d row1 pass51 (1)
+stand_up_from_d row2 pass29 (1)
+sit_in_e row2 pass29 (1)
+walk-to-row row1 pass21 (1)
+move-to-other-row row1 row2 pass21 (1)
+sit_in_d row2 pass21 (1)
+stand_up_from_d row1 pass51 (1)
+sit_in_f row1 pass51 (1)
+walk-to-row row1 pass55 (1)
+sit_in_e row1 pass55 (1)
+walk-to-row row1 pass15 (1)
+sit_in_d row1 pass15 (1)
+Plan length: 26 step s (1).
+64 actions in the plan.
+total time 3.62 preprocess 0.40 
+total size 2.213 GB
+max. learned clause length 4559
+t val conflicts decisions
+5 -1 960 1073
+7 -1 900 1536
+10 -1 842 1085
+14 -1 782 1430
+20 -1 723 1203
+28 -1 661 1356
+40 1 556 1319

@@ -1,0 +1,92 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core (no VSIDS)
+Options: file:Entrega/domain/airbus-seats-domain.pddl file:Entrega/problems/airbus-seats-p04-2f-60p.pddl
+Domain: airbus-seats
+Problem: airbus-seats-p04-2f-60p
+Parser: 1800 ground actions and 914 state variables
+Invariants: 0 1 2 3  0.22 secs
+Goal: conjunctive
+Simplified: 1680 ground actions and 914 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.13 secs (max SCC size 1)
+Plan type: E-step
+				Allocated 32 MB permanent (total 140 MB)
+Horizon 5: 13884 variables
+				Allocated 32 MB (total 250 MB)
+Horizon 7: 19072 variables
+Horizon 10: 26854 variables
+Horizon 14: 37230 variables
+Horizon 20: 52794 variables
+Horizon 28: 73546 variables
+Horizon 40: 104674 variables
+Horizon 56: 146178 variables
+Horizon 80: 208434 variables
+				Allocated 32 MB permanent (total 1026 MB)
+Horizon 113: 294036 variables
+Horizon 160: 415954 variables
+				Allocated 32 MB permanent (total 1270 MB)
+Horizon 226: 587158 variables
+				Allocated 32 MB permanent (total 1428 MB)
+Horizon 320: 830994 variables
+				Allocated 32 MB permanent (total 1606 MB)
+Horizon 452: 1173402 variables
+				Allocated 32 MB permanent (total 1812 MB)
+				Allocated 32 MB permanent (total 1844 MB)
+Horizon 640: 1661074 variables
+				Allocated 32 MB permanent (total 2091 MB)
+				Allocated 32 MB permanent (total 2123 MB)
+				Allocated 32 MB permanent (total 2155 MB)
+Horizon 905: 2348484 variables
+SAT (1319 decisions 556 conflicts)
+PLAN FOUND: 40 steps
+STEP 0: walk-to-row(row1,pass43) walk-to-row(row2,pass51)
+STEP 1: sit_in_a(row1,pass43) sit_in_d(row2,pass51)
+STEP 2: walk-to-row(row1,pass49) walk-to-row(row2,pass39)
+STEP 3: sit_in_b(row1,pass49) sit_in_b(row2,pass39)
+STEP 4: stand_up_from_d(row2,pass51) walk-to-row(row1,pass38)
+STEP 5: sit_in_c(row1,pass38)
+STEP 6: move-to-other-row(row2,row1,pass51)
+STEP 7: sit_in_d(row1,pass51) stand_up_from_b(row2,pass39)
+STEP 8: sit_in_a(row2,pass39) walk-to-row(row1,pass17)
+STEP 9: move-to-other-row(row1,row2,pass17)
+STEP 10: sit_in_f(row2,pass17) stand_up_from_d(row1,pass51)
+STEP 11: sit_in_d(row1,pass51) stand_up_from_a(row2,pass39)
+STEP 12: sit_in_b(row2,pass39) stand_up_from_d(row1,pass51)
+STEP 13: sit_in_d(row1,pass51) stand_up_from_b(row2,pass39)
+STEP 14: sit_in_e(row2,pass39) stand_up_from_d(row1,pass51)
+STEP 15: sit_in_d(row1,pass51) walk-to-row(row2,pass18)
+STEP 16: sit_in_a(row2,pass18) walk-to-row(row1,pass26)
+STEP 17: move-to-other-row(row1,row2,pass26)
+STEP 18: sit_in_b(row2,pass26) stand_up_from_d(row1,pass51)
+STEP 19: sit_in_e(row1,pass51) stand_up_from_e(row2,pass39)
+STEP 20: stand_up_from_e(row1,pass51)
+STEP 21: sit_in_d(row1,pass51)
+STEP 22: move-to-other-row(row2,row1,pass39)
+STEP 23: move-to-other-row(row1,row2,pass39)
+STEP 24: sit_in_c(row2,pass39) stand_up_from_d(row1,pass51)
+STEP 25: sit_in_d(row1,pass51) stand_up_from_f(row2,pass17)
+STEP 26: move-to-other-row(row2,row1,pass17)
+STEP 27: move-to-other-row(row1,row2,pass17)
+STEP 28: sit_in_f(row2,pass17) stand_up_from_d(row1,pass51)
+STEP 29: sit_in_d(row1,pass51) walk-to-row(row2,pass29)
+STEP 30: sit_in_d(row2,pass29) stand_up_from_d(row1,pass51)
+STEP 31: sit_in_d(row1,pass51) stand_up_from_d(row2,pass29)
+STEP 32: sit_in_e(row2,pass29) walk-to-row(row1,pass21)
+STEP 33: move-to-other-row(row1,row2,pass21)
+STEP 34: sit_in_d(row2,pass21) stand_up_from_d(row1,pass51)
+STEP 35: sit_in_f(row1,pass51)
+STEP 36: walk-to-row(row1,pass55)
+STEP 37: sit_in_e(row1,pass55)
+STEP 38: walk-to-row(row1,pass15)
+STEP 39: sit_in_d(row1,pass15)
+64 actions in the plan.
+total time 3.62 preprocess 0.40 
+total size 2.213 GB
+max. learned clause length 4559
+t val conflicts decisions
+5 -1 960 1073
+7 -1 900 1536
+10 -1 842 1085
+14 -1 782 1430
+20 -1 723 1203
+28 -1 661 1356
+40 1 556 1319

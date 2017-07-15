@@ -1,0 +1,46 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core  no VSIDS (1)
+Options: -P 0 file:Entrega/domain/airbus-seats-domain.pddl file:Entrega/problems/airbus-seats-p03-30f-6p.pddl
+Domain: airbus-seats
+Problem: airbus-seats-p03-30f-6p
+Parser: 7740 ground actions and 1476 state variables
+Invariants: 0 1 2 3  0.34 secs
+Goal: conjunctive
+Simplified: 7560 ground actions and 1476 state variables
+Actions: STRIPS
+Plan type: Sequential
+				Allocated 32 MB permanent  total 222 MB (1)
+Horizon 5: 46721 variables
+				Allocated 32 MB  total 340 MB (1)
+Horizon 7: 64819 variables
+5 UNSAT  134 decisions 114 conflicts (1)
+Horizon 10: 91966 variables
+Horizon 14: 128162 variables
+Horizon 20: 182456 variables
+Horizon 28: 254848 variables
+SAT  239 decisions 158 conflicts (1)
+Solution found!
+PLAN FOUND: 14 steps
+walk-to-row row2 pass1 (1)
+sit_in_a row2 pass1 (1)
+walk-to-row row2 pass6 (1)
+sit_in_b row2 pass6 (1)
+walk-to-row row2 pass2 (1)
+sit_in_c row2 pass2 (1)
+walk-to-row row2 pass5 (1)
+sit_in_d row2 pass5 (1)
+stand_up_from_d row2 pass5 (1)
+sit_in_f row2 pass5 (1)
+walk-to-row row2 pass4 (1)
+sit_in_e row2 pass4 (1)
+walk-to-row row2 pass3 (1)
+sit_in_d row2 pass3 (1)
+Plan length: 14 step s (1).
+14 actions in the plan.
+total time 1.76 preprocess 0.63 
+total size 0.935 GB
+max. learned clause length 11319
+t val conflicts decisions
+5 0 114 134
+7 -1 300 338
+10 -1 240 278
+14 1 158 239

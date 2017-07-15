@@ -1,0 +1,85 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core (no VSIDS)
+Options: file:domain/airbus-seats-domain.pddl file:problems/airbus-seats-p06-10f-15p.pddl
+Domain: airbus-seats
+Problem: airbus-seats-p06-10f-15p
+Parser: 3450 ground actions and 1135 state variables
+Invariants: 0 1 2 3 4 5  0.13 secs
+Goal: conjunctive
+Simplified: 3240 ground actions and 1129 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.42 secs (max SCC size 1)
+Plan type: E-step
+				Allocated 32 MB permanent (total 147 MB)
+Horizon 5: 22974 variables
+				Allocated 32 MB (total 259 MB)
+5 UNSAT (29 decisions 16 conflicts)
+Horizon 7: 31712 variables
+Horizon 10: 44819 variables
+Horizon 14: 62295 variables
+Horizon 20: 88509 variables
+Horizon 28: 123461 variables
+Horizon 40: 175889 variables
+7 UNSAT (714 decisions 313 conflicts)
+Horizon 56: 245793 variables
+				Allocated 32 MB permanent (total 968 MB)
+Horizon 80: 350649 variables
+Horizon 113: 494826 variables
+				Allocated 32 MB permanent (total 1224 MB)
+Horizon 160: 700169 variables
+				Allocated 32 MB permanent (total 1391 MB)
+Horizon 226: 988523 variables
+				Allocated 32 MB permanent (total 1582 MB)
+Horizon 320: 1399209 variables
+				Allocated 32 MB permanent (total 1807 MB)
+				Allocated 32 MB permanent (total 1839 MB)
+Horizon 452: 1975917 variables
+				Allocated 32 MB permanent (total 2113 MB)
+				Allocated 32 MB permanent (total 2145 MB)
+				Allocated 32 MB permanent (total 2177 MB)
+Horizon 640: 2797289 variables
+SAT (3418 decisions 266 conflicts)
+PLAN FOUND: 160 steps
+STEP 0: stand_up_from_c(row1,pass2) stand_up_from_c(row3,pass6) stand_up_from_d(row2,pass3) walk-to-row(row10,pass11) walk-to-row(row4,pass12) walk-to-row(row5,pass9) walk-to-row(row9,pass13)
+STEP 1: move-to-other-row(row1,row7,pass2) move-to-other-row(row3,row6,pass6) sit_in_a(row2,pass3) sit_in_b(row10,pass11) sit_in_b(row5,pass9) sit_in_c(row9,pass13) sit_in_f(row4,pass12)
+STEP 2: move-to-other-row(row7,row8,pass2) stand_up_from_b(row1,pass1) stand_up_from_b(row10,pass11) stand_up_from_e(row2,pass4) stand_up_from_f(row4,pass12) walk-to-row(row3,pass7) walk-to-row(row5,pass14) walk-to-row(row9,pass8)
+STEP 3: move-to-other-row(row9,row7,pass8) sit_in_a(row1,pass1) sit_in_b(row10,pass11) sit_in_d(row5,pass14) sit_in_e(row4,pass12) sit_in_f(row2,pass4) sit_in_f(row3,pass7)
+STEP 4: move-to-other-row(row6,row1,pass6) move-to-other-row(row7,row2,pass8) move-to-other-row(row8,row5,pass2) stand_up_from_b(row10,pass11) stand_up_from_b(row3,pass5) stand_up_from_c(row9,pass13) stand_up_from_e(row4,pass12)
+STEP 5: move-to-other-row(row5,row6,pass2) move-to-other-row(row9,row8,pass13) sit_in_b(row1,pass6) sit_in_b(row3,pass5) sit_in_d(row2,pass8) walk-to-row(row7,pass10)
+STEP 6: move-to-other-row(row4,row1,pass12) move-to-other-row(row6,row9,pass2) move-to-other-row(row8,row3,pass13) stand_up_from_b(row5,pass9) stand_up_from_d(row2,pass8)
+STEP 7: move-to-other-row(row3,row8,pass13) move-to-other-row(row7,row4,pass10) sit_in_a(row5,pass9) sit_in_c(row1,pass12) sit_in_c(row9,pass2) sit_in_e(row2,pass8)
+STEP 8: move-to-other-row(row10,row7,pass11) move-to-other-row(row8,row6,pass13) sit_in_f(row4,pass10) stand_up_from_b(row3,pass5) stand_up_from_c(row1,pass12) stand_up_from_c(row9,pass2) stand_up_from_e(row2,pass8) walk-to-row(row5,pass15)
+STEP 9: move-to-other-row(row1,row10,pass12) move-to-other-row(row6,row4,pass13) move-to-other-row(row9,row8,pass2) sit_in_b(row5,pass15) sit_in_c(row3,pass5) sit_in_d(row2,pass8) sit_in_f(row7,pass11)
+STEP 10: move-to-other-row(row10,row6,pass12) sit_in_d(row4,pass13) stand_up_from_b(row1,pass6) stand_up_from_c(row3,pass5) stand_up_from_d(row2,pass8) stand_up_from_d(row5,pass14) stand_up_from_f(row7,pass11)
+STEP 11: move-to-other-row(row6,row4,pass12) sit_in_a(row3,pass5) sit_in_b(row1,pass6) sit_in_c(row5,pass14) sit_in_e(row2,pass8) sit_in_f(row7,pass11)
+STEP 12: move-to-other-row(row4,row1,pass12) move-to-other-row(row8,row3,pass2) stand_up_from_c(row5,pass14) stand_up_from_e(row2,pass8) stand_up_from_f(row7,pass11)
+STEP 13: move-to-other-row(row5,row9,pass14) move-to-other-row(row7,row10,pass11) sit_in_b(row3,pass2) sit_in_c(row1,pass12) sit_in_d(row2,pass8) stand_up_from_d(row4,pass13)
+STEP 14: move-to-other-row(row4,row3,pass13) sit_in_b(row10,pass11) stand_up_from_b(row5,pass15) stand_up_from_c(row1,pass12) stand_up_from_d(row2,pass8)
+STEP 15: move-to-other-row(row1,row10,pass12) move-to-other-row(row5,row4,pass15) sit_in_c(row3,pass13) sit_in_d(row2,pass8)
+STEP 16: move-to-other-row(row10,row5,pass12) sit_in_d(row4,pass15) stand_up_from_b(row1,pass6) stand_up_from_c(row3,pass13) stand_up_from_d(row2,pass8)
+STEP 17: move-to-other-row(row3,row7,pass13) move-to-other-row(row5,row4,pass12) sit_in_b(row1,pass6) sit_in_e(row2,pass8) stand_up_from_b(row10,pass11)
+STEP 18: move-to-other-row(row10,row5,pass11) move-to-other-row(row4,row1,pass12) move-to-other-row(row7,row3,pass13) move-to-other-row(row9,row2,pass14)
+STEP 19: sit_in_c(row1,pass12) sit_in_c(row3,pass13) sit_in_c(row5,pass11) sit_in_d(row2,pass14) stand_up_from_d(row4,pass15)
+STEP 20: sit_in_e(row4,pass15) stand_up_from_c(row1,pass12) stand_up_from_c(row5,pass11) stand_up_from_d(row2,pass14) stand_up_from_f(row3,pass7)
+STEP 21: move-to-other-row(row1,row10,pass12) move-to-other-row(row3,row4,pass7) sit_in_b(row5,pass11) sit_in_d(row2,pass14)
+STEP 22: move-to-other-row(row10,row1,pass12) sit_in_d(row4,pass7) stand_up_from_b(row5,pass11) stand_up_from_c(row3,pass13) stand_up_from_d(row2,pass14)
+STEP 23: sit_in_b(row5,pass11) sit_in_c(row1,pass12) sit_in_c(row3,pass13) sit_in_d(row2,pass14) stand_up_from_d(row4,pass7)
+STEP 24: move-to-other-row(row4,row5,pass7) stand_up_from_a(row2,pass3) stand_up_from_c(row1,pass12)
+STEP 25: move-to-other-row(row1,row3,pass12) move-to-other-row(row2,row8,pass3) move-to-other-row(row5,row4,pass7)
+STEP 26: move-to-other-row(row3,row5,pass12) move-to-other-row(row8,row1,pass3) sit_in_d(row4,pass7)
+STEP 27: sit_in_c(row1,pass3) sit_in_c(row5,pass12)
+150 actions in the plan.
+total time 10.24 preprocess 0.62 
+total size 2.250 GB
+max. learned clause length 570
+t val conflicts decisions
+5 0 16 29
+7 0 313 714
+10 -1 781 2420
+14 -1 722 2448
+20 -1 662 2836
+28 -1 600 3557
+40 -1 540 3968
+56 -1 480 3523
+80 -1 421 3552
+113 -1 360 3282
+160 1 266 3418

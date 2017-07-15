@@ -1,0 +1,26 @@
+Solution found!
+dummy line
+walk-to-row row2 pass5 (1)
+sit_in_a row2 pass5 (1)
+walk-to-row row2 pass4 (1)
+sit_in_b row2 pass4 (1)
+walk-to-row row2 pass6 (1)
+sit_in_c row2 pass6 (1)
+walk-to-row row2 pass2 (1)
+sit_in_d row2 pass2 (1)
+stand_up_from_d row2 pass2 (1)
+sit_in_f row2 pass2 (1)
+walk-to-row row2 pass3 (1)
+sit_in_e row2 pass3 (1)
+walk-to-row row2 pass1 (1)
+sit_in_d row2 pass1 (1)
+Plan length: 14 step s (1).
+14 actions in the plan.
+total time 0.11 preprocess 0.01 
+total size 0.684 GB
+max. learned clause length 785
+t val conflicts decisions
+5 0 100 115
+7 -1 301 340
+10 -1 241 271
+14 1 133 187

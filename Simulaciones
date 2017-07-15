@@ -1,0 +1,24 @@
+1
+java -jar Airbus.jar demo/p01-lama problems/airbus-seats-p01-6f-6p.pddl 400
+java -jar Airbus.jar demo/p01-MpC problems/airbus-seats-p01-6f-6p.pddl 300
+java -jar Airbus.jar demo/p01-MpC-seq problems/airbus-seats-p01-6f-6p.pddl 300
+
+2
+java -jar Airbus.jar demo/p02-lama problems/airbus-seats-p02-6f-36p.pddl 300
+
+3
+java -jar Airbus.jar demo/p03-lama problems/airbus-seats-p03-30f-6p.pddl 400
+java -jar Airbus.jar demo/p03-MpC problems/airbus-seats-p03-30f-6p.pddl 400
+java -jar Airbus.jar demo/p03-MpC-seq problems/airbus-seats-p03-30f-6p.pddl 400
+
+4
+java -jar Airbus.jar demo/p04-lama problems/airbus-seats-p04-2f-60p.pddl 400
+java -jar Airbus.jar demo/p04-MpC problems/airbus-seats-p04-2f-60p.pddl 300
+
+6
+java -jar Airbus.jar demo/p06-lama problems/airbus-seats-p06-10f-15p.pddl 400
+java -jar Airbus.jar demo/p06-MpC problems/airbus-seats-p06-10f-15p.pddl 300
+
+9
+java -jar Airbus.jar demo/p09-lama problems/airbus-seats-p09-10f-15p.pddl 300
+java -jar Airbus.jar demo/p09-MpC problems/airbus-seats-p09-10f-15p.pddl 300

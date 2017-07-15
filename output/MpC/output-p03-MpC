@@ -1,0 +1,53 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core (no VSIDS)
+Options: file:Entrega/domain/airbus-seats-domain.pddl file:Entrega/problems/airbus-seats-p03-30f-6p.pddl
+Domain: airbus-seats
+Problem: airbus-seats-p03-30f-6p
+Parser: 7740 ground actions and 1476 state variables
+Invariants: 0 1 2 3  0.34 secs
+Goal: conjunctive
+Simplified: 7560 ground actions and 1476 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.65 secs (max SCC size 1)
+Plan type: E-step
+				Allocated 32 MB permanent (total 209 MB)
+Horizon 5: 46656 variables
+				Allocated 32 MB (total 326 MB)
+Horizon 7: 64728 variables
+Horizon 10: 91836 variables
+5 UNSAT (155 decisions 140 conflicts)
+Horizon 14: 127980 variables
+Horizon 20: 182196 variables
+Horizon 28: 254484 variables
+Horizon 40: 362916 variables
+SAT (812 decisions 174 conflicts)
+PLAN FOUND: 20 steps
+STEP 0: walk-to-row(row14,pass3) walk-to-row(row18,pass6) walk-to-row(row2,pass1) walk-to-row(row22,pass5) walk-to-row(row6,pass2) walk-to-row(row8,pass4)
+STEP 1: move-to-other-row(row8,row13,pass4) sit_in_a(row2,pass1)
+STEP 2: move-to-other-row(row14,row2,pass3)
+STEP 3: sit_in_b(row2,pass3)
+STEP 4: move-to-other-row(row6,row2,pass2)
+STEP 5: sit_in_c(row2,pass2)
+STEP 6: move-to-other-row(row22,row2,pass5)
+STEP 7: sit_in_d(row2,pass5)
+STEP 8: move-to-other-row(row18,row2,pass6)
+STEP 9: move-to-other-row(row2,row12,pass6)
+STEP 10: move-to-other-row(row12,row18,pass6) stand_up_from_d(row2,pass5)
+STEP 11: move-to-other-row(row13,row12,pass4) sit_in_e(row2,pass5)
+STEP 12: move-to-other-row(row12,row14,pass4) stand_up_from_e(row2,pass5)
+STEP 13: sit_in_d(row2,pass5)
+STEP 14: stand_up_from_d(row2,pass5)
+STEP 15: sit_in_f(row2,pass5)
+STEP 16: move-to-other-row(row14,row2,pass4)
+STEP 17: sit_in_e(row2,pass4)
+STEP 18: move-to-other-row(row18,row2,pass6)
+STEP 19: sit_in_d(row2,pass6)
+29 actions in the plan.
+total time 2.15 preprocess 1.28 
+total size 0.991 GB
+max. learned clause length 500
+t val conflicts decisions
+5 0 140 155
+7 -1 360 633
+10 -1 300 484
+14 -1 241 351
+20 1 174 812

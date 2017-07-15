@@ -1,0 +1,39 @@
+Solution found!
+Dummy line
+walk-to-row row2 pass5 (1) 
+walk-to-row row3 pass4 (1) 
+walk-to-row row4 pass2 (1) 
+walk-to-row row5 pass3 (1) 
+walk-to-row row6 pass6 (1)
+move-to-other-row row4 row1 pass2 (1) 
+sit_in_a row2 pass5 (1)
+move-to-other-row row3 row4 pass4 (1) 
+move-to-other-row row5 row2 pass3 (1)
+sit_in_b row2 pass3 (1) 
+sit_in_b row4 pass4 (1) 
+walk-to-row row5 pass1 (1)
+move-to-other-row row1 row4 pass2 (1) 
+move-to-other-row row6 row2 pass6 (1)
+move-to-other-row row4 row6 pass2 (1) 
+move-to-other-row row5 row1 pass1 (1) 
+sit_in_c row2 pass6 (1)
+move-to-other-row row6 row2 pass2 (1) 
+stand_up_from_b row4 pass4 (1)
+sit_in_d row2 pass2 (1)
+stand_up_from_d row2 pass2 (1)
+sit_in_f row2 pass2 (1)
+move-to-other-row row4 row2 pass4 (1)
+sit_in_e row2 pass4 (1)
+move-to-other-row row1 row2 pass1 (1)
+sit_in_d row2 pass1 (1)
+Plan length: 26 step(s).
+Plan cost: 26
+26 actions in the plan.
+total time 0.08 preprocess 0.02 
+total size 620.000 MB
+max. learned clause length 128
+t val conflicts decisions
+5 0 139 148
+7 -1 242 354
+10 -1 180 310
+14 1 67 199

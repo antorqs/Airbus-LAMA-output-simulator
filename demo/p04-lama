@@ -1,0 +1,145 @@
+Parsing... [0.000s CPU, 0.004s wall-clock]
+Instantiating...
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.004s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
+Generated 80 rules.
+Computing model... [0.090s CPU, 0.085s wall-clock]
+2913 relevant atoms
+2548 auxiliary atoms
+5461 final queue length
+8267 total queue pushes
+Completing instantiation... [0.150s CPU, 0.142s wall-clock]
+Instantiating: [0.250s CPU, 0.238s wall-clock]
+Computing fact groups...
+Finding invariants...
+14 initial candidates
+Finding invariants: [0.000s CPU, 0.003s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+914 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.010s CPU, 0.002s wall-clock]
+Computing fact groups: [0.020s CPU, 0.018s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.002s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.010s CPU, 0.012s wall-clock]
+Translating task: [0.160s CPU, 0.156s wall-clock]
+120 implied effects removed
+840 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+0 propositions removed
+Detecting unreachable propositions: [0.040s CPU, 0.043s wall-clock]
+Translator variables: 914
+Translator derived variables: 0
+Translator facts: 1828
+Translator mutex groups: 0
+Translator total mutex groups size: 0
+Translator operators: 1800
+Translator task size: 17274
+Translator peak memory: 48100 KB
+Writing output... [0.030s CPU, 0.034s wall-clock]
+Done! [0.510s CPU, 0.510s wall-clock]
+Building causal graph...
+The causal graph is not acyclic.
+914 variables of 914 necessary
+0 of 0 mutex groups necessary.
+1800 of 1800 operators necessary.
+0 of 0 axiom rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 1828
+Preprocessor derived variables: 0
+Preprocessor task size: 17274
+Writing output...
+done
+
+Dispatcher selected state size 1.
+This is a unit task.
+Simplifying transitions... done!
+Initializing Exploration...
+Generating landmarks using the RPG/SAS+ approach
+approx. reasonable orders
+approx. obedient reasonable orders
+Removed 0 reasonable or obedient reasonable orders
+Landmarks generation time: 0.0514663s
+Discovered 24 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+24 edges
+Initializing LAMA-FF Synergy Object
+Initializing landmarks count heuristic...
+12 initial landmarks, 12 goal landmarks
+Conducting lazy best first search, (real) bound = 2147483647
+Best heuristic value: 12/14 [g=0, 1 evaluated, 0 expanded, t=0.14s]
+Best heuristic value: 12/13 [g=1, 2 evaluated, 1 expanded, t=0.14s]
+Best heuristic value: 11/13 [g=2, 8 evaluated, 7 expanded, t=0.14s]
+Best heuristic value: 11/12 [g=3, 9 evaluated, 8 expanded, t=0.14s]
+Best heuristic value: 10/12 [g=4, 13 evaluated, 12 expanded, t=0.14s]
+Best heuristic value: 10/11 [g=5, 14 evaluated, 13 expanded, t=0.14s]
+Best heuristic value: 9/11 [g=6, 15 evaluated, 14 expanded, t=0.14s]
+Best heuristic value: 9/10 [g=7, 16 evaluated, 15 expanded, t=0.14s]
+Best heuristic value: 8/10 [g=8, 20 evaluated, 19 expanded, t=0.14s]
+Best heuristic value: 8/9 [g=9, 21 evaluated, 20 expanded, t=0.14s]
+Best heuristic value: 7/9 [g=10, 24 evaluated, 23 expanded, t=0.14s]
+Best heuristic value: 7/8 [g=11, 25 evaluated, 24 expanded, t=0.14s]
+Best heuristic value: 6/7 [g=12, 26 evaluated, 25 expanded, t=0.16s]
+Best heuristic value: 6/6 [g=13, 27 evaluated, 26 expanded, t=0.16s]
+Best heuristic value: 5/6 [g=14, 32 evaluated, 31 expanded, t=0.16s]
+Best heuristic value: 5/5 [g=15, 33 evaluated, 32 expanded, t=0.16s]
+Best heuristic value: 4/5 [g=16, 36 evaluated, 35 expanded, t=0.16s]
+Best heuristic value: 4/4 [g=17, 37 evaluated, 36 expanded, t=0.16s]
+Best heuristic value: 3/4 [g=18, 38 evaluated, 37 expanded, t=0.16s]
+Best heuristic value: 3/3 [g=19, 39 evaluated, 38 expanded, t=0.16s]
+Best heuristic value: 2/3 [g=20, 42 evaluated, 41 expanded, t=0.16s]
+Best heuristic value: 2/2 [g=21, 43 evaluated, 42 expanded, t=0.16s]
+Best heuristic value: 1/2 [g=22, 45 evaluated, 44 expanded, t=0.16s]
+Best heuristic value: 1/1 [g=23, 46 evaluated, 45 expanded, t=0.16s]
+Solution found!
+Actual search time: 0.02s [t=0.16s]
+walk-to-row row1 pass1 (1)
+sit_in_a row1 pass1 (1)
+walk-to-row row1 pass10 (1)
+sit_in_b row1 pass10 (1)
+walk-to-row row1 pass11 (1)
+sit_in_c row1 pass11 (1)
+walk-to-row row1 pass12 (1)
+sit_in_f row1 pass12 (1)
+walk-to-row row1 pass13 (1)
+sit_in_e row1 pass13 (1)
+walk-to-row row1 pass14 (1)
+sit_in_d row1 pass14 (1)
+walk-to-row row2 pass15 (1)
+sit_in_a row2 pass15 (1)
+walk-to-row row2 pass16 (1)
+sit_in_b row2 pass16 (1)
+walk-to-row row2 pass17 (1)
+sit_in_c row2 pass17 (1)
+walk-to-row row2 pass18 (1)
+sit_in_f row2 pass18 (1)
+walk-to-row row2 pass19 (1)
+sit_in_e row2 pass19 (1)
+walk-to-row row2 pass2 (1)
+sit_in_d row2 pass2 (1)
+Plan length: 24 step(s).
+Plan cost: 24
+Initial state h value: 12/14.
+Expanded 46 state(s).
+Reopened 0 state(s).
+Evaluated 47 state(s).
+Evaluations: 94
+Generated 4314 state(s).
+Dead ends: 0 state(s).
+Search time: 0.02s
+Total time: 0.16s
+Peak memory: 6160 KB

@@ -1,0 +1,44 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core (no VSIDS)
+Options: -P 0 file:domain/airbus-seats-domain.pddl file:problems/airbus-seats-p01-6f-6p.pddl
+Domain: airbus-seats
+Problem: airbus-seats-p01-6f-6p
+Parser: 684 ground actions and 300 state variables
+Invariants: 0 1 2 3  0.01 secs
+Goal: conjunctive
+Simplified: 648 ground actions and 300 state variables
+Actions: STRIPS
+Plan type: Sequential
+				Allocated 32 MB permanent (total 126 MB)
+Horizon 5: 5090 variables
+				Allocated 32 MB (total 236 MB)
+Horizon 7: 7006 variables
+5 UNSAT (115 decisions 100 conflicts)
+Horizon 10: 9880 variables
+Horizon 14: 13712 variables
+Horizon 20: 19460 variables
+Horizon 28: 27124 variables
+SAT (187 decisions 133 conflicts)
+PLAN FOUND: 14 steps
+STEP 0: walk-to-row(row2,pass5)
+STEP 1: sit_in_a(row2,pass5)
+STEP 2: walk-to-row(row2,pass4)
+STEP 3: sit_in_b(row2,pass4)
+STEP 4: walk-to-row(row2,pass6)
+STEP 5: sit_in_c(row2,pass6)
+STEP 6: walk-to-row(row2,pass2)
+STEP 7: sit_in_d(row2,pass2)
+STEP 8: stand_up_from_d(row2,pass2)
+STEP 9: sit_in_f(row2,pass2)
+STEP 10: walk-to-row(row2,pass3)
+STEP 11: sit_in_e(row2,pass3)
+STEP 12: walk-to-row(row2,pass1)
+STEP 13: sit_in_d(row2,pass1)
+14 actions in the plan.
+total time 0.13 preprocess 0.01 
+total size 0.684 GB
+max. learned clause length 785
+t val conflicts decisions
+5 0 100 115
+7 -1 301 340
+10 -1 241 271
+14 1 133 187
